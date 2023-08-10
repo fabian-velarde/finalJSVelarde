@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desvariadas</title>
+</head>
+<body>
+    <!-- ENCABEZADO -->
+
+    <header>
+        <h1>Desvariadas</h1>
+        <div id="wallet_container"></div>
+        <button id="toggleCarrito" class="btn-mostrar" onclick="toggleCarrito()">Mostrar carrito</button>
+    <!-- BUSCADOR Y FILTRO -->
+    <div><input type="text" id="search" placeholder="Buscar"></div>
+    </header>
+    <!-- GALERIA DE PRODUCTOS -->
+    <ul class="gallery">
+        <li data-filter="campera jogger camuflada 4000">
+            <img class="one" src="/img/mujer/campera jogger camuflada.jpg" alt="indumentaria femenina"> 
+            <span>campera jogger camuflada - producto 1 - $4000 <br></span>
+            <button class="btn" onclick="agregarAlCarrito('Producto 1', 4000)">
+                <img class="agregar" src="/img/carrito.png" alt="">
+            </button>
+        </li>
+        <li data-filter="campera jogger cebra 5300"> 
+            <img class="two" src="/img/mujer/campera jogger cebra.jpg" alt="indumentaria femenina"> 
+            <span>campera jogger cebra - producto 2 - $5300 <br> </span> 
+            <button class="btn" onclick="agregarAlCarrito('Producto 2', 5300)"> 
+                <img class="agregar" src="/img/carrito.png" alt=""> 
+            </button> 
+        </li>
+        <li data-filter="campera jogger estampada 4500"> 
+            <img class="three" src="/img/mujer/campera jogger estampada.jpg" alt="indumentaria femenina"> 
+            <span>campera jogger estampada - producto 3 - $4500 <br> </span> 
+            <button class="btn" onclick="agregarAlCarrito('Producto 3', 4500)">
+                <img class="agregar" src="/img/carrito.png" alt=""> 
+            </button> 
+            </li>
+        <li data-filter="campera jogger lila 6000"> 
+            <img class="six" src="/img/mujer/campera jogger lila.jpg" alt="indumentaria femenina"> 
+            <span>campera jogger lila - producto 4 - $6000 <br> </span> 
+            <button class="btn" onclick="agregarAlCarrito('Producto 4', 6000)">
+                <img class="agregar" src="/img/carrito.png" alt=""> 
+            </button> 
+            </li>
+        <li data-filter="campera jogger rosa 7000 "> 
+            <img class="seven" src="/img/mujer/campera jogger rosa.jpg" alt="indumentaria femenina"> 
+            <span>campera jogger rosa - producto 5 - $7000 <br> </span> 
+            <button class="btn" onclick="agregarAlCarrito('Producto 5', 7000)">
+                <img class="agregar" src="/img/carrito.png" alt=""> 
+            </button> 
+            </li>
+        <li data-filter="campera jogger varios colores 8000"> 
+            <img class="nine" src="/img/mujer/campera jogger varios colores.jpg" alt="indumentaria femenina"> 
+            <span>campera jogger varios colores - producto 6 - $8000 <br> </span> 
+            <button class="btn" onclick="agregarAlCarrito('Producto 6', 8000)">
+                <img class="agregar" src="/img/carrito.png" alt=""></button></li>
+        <li data-filter="campera jogger verde oliva 7000"> 
+            <img class="ten" src="/img/mujer/campera jogger verde oliva.jpg" alt="indumentaria femenina"> 
+            <span>campera jogger verde oliva - producto 7 - $7000 <br> </span> 
+            <button class="btn" onclick="agregarAlCarrito('Producto 7', 7000)">
+                <img class="agregar" src="/img/carrito.png" alt="">  
+            </button> 
+            </li>
+        <li data-filter="campera jogger verde 7000"> 
+            <img class="eleven" src="/img/mujer/campera jogger verde.jpg" alt="indumentaria femenina"> 
+            <span>campera jogger verde - producto 8 - $7000 <br> </span> 
+            <button class="btn" onclick="agregarAlCarrito('Producto 8', 7000)">
+                <img class="agregar" src="/img/carrito.png" alt=""> 
+            </button> 
+            </li>
+        <li data-filter="campera jogger violeta 5000"> 
+            <img class="twelve" src="/img/mujer/campera jogger violeta.jpg" alt="indumentaria femenina"> 
+            <span>campera jogger violeta - producto 9 - $5000 <br> </span> 
+            <button class="btn" onclick="agregarAlCarrito('Producto 9', 5000)">
+                <img class="agregar" src="/img/carrito.png" alt=""> 
+            </button> 
+            </li>
+        <li data-filter="campera jogger 6000"> 
+            <img class="thirteen"  src="/img/mujer/campera jogger.jpg" alt="indumentaria femenina"> 
+            <span>campera jogger - producto  10 - $6000 <br> </span> 
+            <button class="btn" onclick="agregarAlCarrito('Producto 10', 6000)">
+                <img class="agregar" src="/img/carrito.png" alt=""> 
+            </button> 
+            </li>
+        <li data-filter="sweater de hilo verde 3400"> 
+            <img class="fourteen"  src="/img/mujer/sweater de hilo verde.jpg" alt="indumentaria femenina"> 
+            <span>sweater de hilo verde - producto 11 - $3400 <br> </span> 
+            <button class="btn" onclick="agregarAlCarrito('Producto 11', 3400)">
+                <img class="agregar" src="/img/carrito.png" alt=""> 
+            </button> 
+            </li>
+        <li data-filter="sweater gris de hilo 3000"> 
+            <img class="fifteen"  src="/img/mujer/sweater gris de hilo.jpg" alt="indumentaria femenina"> 
+            <span>sweater gris de hilo - producto 12 - $3000 <br> </span> 
+            <button class="btn" onclick="agregarAlCarrito('Producto 12', 3000)">
+                <img class="agregar" src="/img/carrito.png" alt=""> 
+            </button> 
+            </li>
+        <li data-filter="sweater marron de hilo 6300"> 
+            <img class="sixteen"  src="/img/mujer/sweater marron de hilo.jpg" alt="indumentaria femenina"> 
+            <span>sweater marron de hilo - producto 13 - $6300 <br> </span> 
+            <button class="btn" onclick="agregarAlCarrito('Producto 13', 6300)">
+                <img class="agregar" src="/img/carrito.png" alt=""> 
+            </button> 
+            </li>
+        <li data-filter="sweater verde 4700"> 
+            <img class="seventeen"  src="/img/mujer/sweater verde.jpg" alt="indumentaria femenina"> 
+            <span>sweater verde - producto 14 - $4700 <br> </span> 
+            <button class="btn" onclick="agregarAlCarrito('Producto 14', 4700)">
+                <img class="agregar" src="/img/carrito.png" alt=""> 
+            </button> 
+            </li>
+            <div id="carrito" class="carrito">
+                <h2>Carrito de compras</h2>
+                <ul id="carrito-lista"></ul>
+                <p id="carrito-total"></p>
+            </div>
+            // SDK MercadoPago.js//
+            <button>
+                Paga con MercadoPago
+                </button>
+<script src="https://sdk.mercadopago.com/js/v2"></script>
+<script src="search.js"></script>
+<script src="carrito.js"></script>
+</body>
+</html>
