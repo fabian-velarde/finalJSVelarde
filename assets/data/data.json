@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "nombre": "Campera Camuflada",
+        "precio": 4000,
+        "categoria": "campera algodon",
+        "stock": 100,
+        "imgUrl": "/img/mujer/campera jogger camuflada.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "campera cebra",
+        "precio": 5300,
+        "categoria": "campera algodon",
+        "stock": 100,
+        "imgUrl": "/img/mujer/campera jogger cebra.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Campera estampada",
+        "precio": 4500,
+        "categoria": "campera algodon",
+        "stock": 100,
+        "imgUrl": "/img/mujer/campera jogger estampada.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Campera rosa",
+        "precio": 7000,
+        "categoria": "campera algodon",
+        "stock": 100,
+        "imgUrl": "/img/mujer/campera jogger rosa.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Campera Lila",
+        "precio": 6000,
+        "categoria": "campera algodon",
+        "stock": 100,
+        "imgUrl": "/img/mujer/campera jogger lila.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Campera varios colores",
+        "precio": 8000,
+        "categoria": "campera algodon",
+        "stock": 100,
+        "imgUrl": "/img/mujer/campera jogger varios colores.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Campera verde oliva",
+        "precio": 7000,
+        "categoria": "campera algodon",
+        "stock": 100,
+        "imgUrl": "/img/mujer/campera jogger verde oliva.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Campera verde",
+        "precio": 4700,
+        "categoria": "campera algodon",
+        "stock": 100,
+        "imgUrl": "/img/mujer/campera jogger verde.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Campera violeta",
+        "precio": 5000,
+        "categoria": "campera algodon",
+        "stock": 100,
+        "imgUrl": "/img/mujer/campera jogger violeta.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Campera jogger",
+        "precio": 6000,
+        "categoria": "campera algodon",
+        "stock": 100,
+        "imgUrl": "/img/mujer/campera jogger.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "sweater hilo verde",
+        "precio": 3400,
+        "categoria": "sweater",
+        "stock": 50,
+        "imgUrl": "/img/mujer/sweater de hilo verde.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "sweater hilo gris",
+        "precio": 3000,
+        "categoria": "sweater",
+        "stock": 50,
+        "imgUrl": "/img/mujer/sweater gris de hilo.jpg"
+    },
+    {
+        "id": 13,
+        "nombre": "sweater hilo marron",
+        "precio": 6400,
+        "categoria": "sweater",
+        "stock": 50,
+        "imgUrl": "/img/mujer/sweater marron de hilo.jpg"
+    },
+    {
+        "id": 14,
+        "nombre": "sweater hilo verde",
+        "precio": 4700,
+        "categoria": "sweater",
+        "stock": 50,
+        "imgUrl": "/img/mujer/sweater verde.jpg"
+    }
+]

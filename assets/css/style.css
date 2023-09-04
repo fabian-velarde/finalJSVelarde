@@ -1,0 +1,82 @@
+.card {
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #888;
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+
+/* =======CARRITO ===========*/
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.gallery li {
+list-style-type: none;
+margin: 10px;
+}
+
+.card {
+width: 200px;
+border: 1px solid #ccc;
+padding: 10px;
+text-align: center;
+}
+
+#carrito {
+display: none;
+border: 1px solid #ccc;
+padding: 10px;
+}
+
+#carrito-lista {
+list-style-type: none;
+padding: 0;
+}
+
+.btn-eliminar {
+background-color: red;
+color: white;
+border: none;
+padding: 5px 10px;
+margin-left: 10px;
+cursor: pointer;
+}
